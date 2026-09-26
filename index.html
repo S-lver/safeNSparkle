@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeNsparkle | Polokwane's Cleaning Crew</title>
+    <meta name="description" content="Reliable, thorough, and affordable cleaning solutions for homes and businesses in Polokwane. Post-construction, deep cleaning, offices, and more.">
+    
+    <!-- Tailwind CSS (Keep this in the head) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+        <!-- Favicon -->
+    <link rel="icon" type="image/png" href="static/images/logo.jpg">
+    
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body class="antialiased">
+
+    <!-- ENTRANCE TRANSITION OVERLAY -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-logo">SafeNsparkle<span class="text-[var(--yellow)]">.</span></div>
+        <div class="preloader-line"></div>
+    </div>
+
+    <div class="grain-overlay"></div>
+    <div class="blob-1"></div>
+    <div class="blob-2"></div>
+
+    <!-- STICKY NAVIGATION -->
+    <nav class="fixed top-0 left-0 w-full py-4 px-6 md:px-12 flex justify-between items-center z-50 bg-white/90 backdrop-blur-md border-b border-[var(--navy)]/10 shadow-sm hero-reveal delay-1">
+                <!-- Logo + Brand Name -->
+               <!-- Logo + Brand Name -->
+        <div class="flex items-center gap-3 text-2xl font-bold tracking-tight serif text-[var(--navy)]">
+            <!-- Circular Logo Image -->
+            <img src="static/images/logo.jpg" alt="SafeNsparkle Logo" class="h-10 w-10 object-cover rounded-full border border-gray-200 shadow-sm">
+            <!-- Brand Name -->
+            SafeNsparkle<span class="text-[var(--yellow)]">.</span>
+        </div>
+        <div class="hidden md:flex space-x-12 text-sm font-medium tracking-wide uppercase text-[var(--navy)]">
+            <a href="#story" class="hover:text-[var(--yellow)] transition-colors duration-300">Our Story</a>
+            <a href="#services" class="hover:text-[var(--yellow)] transition-colors duration-300">What We Do</a>
+        </div>
+        <a href="tel:0848135581" class="border-b-2 border-[var(--yellow)] pb-1 text-sm font-semibold text-[var(--navy)] hover:text-[var(--yellow)] hover:border-[var(--navy)] transition-all duration-300">
+            084 813 5581
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="px-6 md:px-12 pt-32 pb-24 max-w-7xl mx-auto relative">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+            
+            <div class="md:col-span-8 relative z-20">
+                <p class="text-[var(--navy)] font-bold tracking-widest uppercase text-sm mb-6 hero-reveal delay-2">Polokwane's Cleaning Crew</p>
+                <h1 class="text-6xl md:text-8xl lg:text-9xl leading-[0.9] text-[var(--navy)] hero-reveal delay-3">
+                    We know <br>
+                    <span class="italic text-[var(--navy)] text-overlap">where the</span> <br>
+                    dust hides.
+                </h1>
+            </div>
+
+            <div class="md:col-span-4 relative mt-12 md:mt-0 hero-reveal delay-4">
+                <div class="w-48 h-48 bg-[var(--yellow)] rounded-full absolute -top-24 -left-12 opacity-80"></div>
+                
+                <div class="bg-white p-8 rounded-2xl border border-[var(--navy)]/10 shadow-xl relative z-30 md:-ml-16 mt-8">
+                    <p class="text-lg leading-relaxed mb-8 text-[var(--charcoal)]">
+                        From post-construction chaos to Monday morning office dread. We step in, roll up our sleeves, and give you your space back.
+                    </p>
+                    <a href="https://wa.me/27848135581" class="inline-block bg-[var(--navy)] text-[var(--yellow)] px-8 py-4 rounded-full font-bold hover:bg-[var(--yellow)] hover:text-[var(--navy)] transition-colors duration-500 shadow-lg">
+                        Let's Talk Dirt &rarr;
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION 1: WHAT WE DO -->
+    <section id="services" class="px-6 md:px-12 py-32 bg-[var(--navy)] text-white relative overflow-hidden">
+        <div class="absolute w-[800px] h-[800px] bg-[var(--yellow)] rounded-full -top-96 -right-64 opacity-[0.07]"></div>
+        <div class="absolute w-[400px] h-[400px] bg-[var(--yellow)] rounded-full bottom-0 left-1/4 opacity-[0.07]"></div>
+
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="mb-24 md:w-2/3">
+                <h2 class="text-5xl md:text-7xl serif mb-6 text-white">The <span class="italic text-[var(--yellow)]">Hit List.</span></h2>
+                <p class="text-xl text-white/90 max-w-lg leading-relaxed">
+                    We don't do "light dusting." We do full resets. Tell us what's driving you crazy, and we'll bring the gear to fix it.
+                </p>
+            </div>
+
+            <div class="space-y-16">
+                <!-- Service 01 -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-baseline border-b border-white/20 pb-16 group">
+                    <div class="md:col-span-2 text-[var(--yellow)] font-bold text-lg">01.</div>
+                    <div class="md:col-span-4">
+                        <h3 class="text-3xl md:text-4xl serif text-white group-hover:text-[var(--yellow)] transition-colors duration-300">Post-Construction</h3>
+                        <p class="text-sm text-[var(--yellow)] mt-2 font-bold tracking-wide uppercase">The Reno Nightmare</p>
+                    </div>
+                    <div class="md:col-span-6 md:pl-12">
+                        <p class="text-white/90 leading-relaxed text-lg">
+                            You just finished the build. There's drywall dust in your coffee mug and paint splatters on the tiles. We handle the fine dust, the debris, and the heavy lifting so you can finally unpack.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 02 -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-baseline border-b border-white/20 pb-16 group">
+                    <div class="md:col-span-2 text-[var(--yellow)] font-bold text-lg">02.</div>
+                    <div class="md:col-span-4 md:col-start-3">
+                        <h3 class="text-3xl md:text-4xl serif text-white group-hover:text-[var(--yellow)] transition-colors duration-300">Home & Office</h3>
+                        <p class="text-sm text-[var(--yellow)] mt-2 font-bold tracking-wide uppercase">Daily, Weekly or Monthly</p>
+                    </div>
+                    <div class="md:col-span-5 md:col-start-8">
+                        <p class="text-white/90 leading-relaxed text-lg">
+                            Mondays are hard enough. Let our team reset your living room or boardroom over the weekend. You walk in to fresh air, clean desks, and a space that's ready to work.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 03 -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-baseline border-b border-white/20 pb-16 group">
+                    <div class="md:col-span-2 text-[var(--yellow)] font-bold text-lg">03.</div>
+                    <div class="md:col-span-4">
+                        <h3 class="text-3xl md:text-4xl serif text-white group-hover:text-[var(--yellow)] transition-colors duration-300">Deep Cleaning</h3>
+                        <p class="text-sm text-[var(--yellow)] mt-2 font-bold tracking-wide uppercase">The Seasonal Reset</p>
+                    </div>
+                    <div class="md:col-span-6 md:pl-12">
+                        <p class="text-white/90 leading-relaxed text-lg">
+                            When the baseboards are crying and the grout has seen better days. We go deep into the corners you've been avoiding, tackling the soap scum, grease, and hidden grime.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 04 -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-baseline border-b border-white/20 pb-16 group">
+                    <div class="md:col-span-2 text-[var(--yellow)] font-bold text-lg">04.</div>
+                    <div class="md:col-span-4 md:col-start-3">
+                        <h3 class="text-3xl md:text-4xl serif text-white group-hover:text-[var(--yellow)] transition-colors duration-300">The Details</h3>
+                        <p class="text-sm text-[var(--yellow)] mt-2 font-bold tracking-wide uppercase">Windows, Carpets & Upholstery</p>
+                    </div>
+                    <div class="md:col-span-5 md:col-start-8">
+                        <p class="text-white/90 leading-relaxed text-lg">
+                            Streak-free glass, stain-free couches, and carpets that don't make you sneeze. The finishing touches that make a room feel truly, undeniably clean.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+                <!-- Service 05 -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-baseline border-b border-white/20 pb-16 group">
+                    <div class="md:col-span-2 text-[var(--yellow)] font-bold text-lg">05.</div>
+                    <div class="md:col-span-4 md:col-start-3">
+                        <h3 class="text-3xl md:text-4xl serif text-white group-hover:text-[var(--yellow)] transition-colors duration-300">Home Reed Diffus</h3>
+                        <p class="text-sm text-[var(--yellow)] mt-2 font-bold tracking-wide uppercase">Finishing Touch / Air Freshening</p>
+                    </div>
+                    <div class="md:col-span-5 md:col-start-8">
+                        <p class="text-white/90 leading-relaxed text-lg">
+                            A truly clean home should feel as good as it smells. As a final touch to our service, we set up or refresh your favorite reed diffusers throughout your space, leaving behind a subtle, continuous fragrance without any heavy chemicals or artificial sprays. Just a quiet, welcoming atmosphere from the moment you walk back through the door.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+
+                        <!-- GALLERY SECTION -->
+            <div class="mt-32 pt-16 border-t border-white/20">
+                <div class="mb-16">
+                    <h3 class="text-4xl md:text-5xl serif mb-4 text-white">The <span class="italic text-[var(--yellow)]">Evidence.</span></h3>
+                    <p class="text-xl text-white/80 max-w-lg">We let our work do the talking. Here's what a SafeNsparkle reset actually looks like.</p>
+                </div>
+
+                <!-- Asymmetric Editorial Gallery - Circular Layout -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-y-24 items-center relative py-12">
+                    
+                    <!-- Background abstract shapes -->
+                    <div class="absolute w-72 h-72 bg-[var(--yellow)] rounded-full top-1/4 left-1/3 opacity-10 -z-10 blur-2xl"></div>
+                    <div class="absolute w-96 h-96 bg-white rounded-full bottom-0 right-0 opacity-5 -z-10 blur-2xl"></div>
+
+                    <!-- Image 1 (Circle, Left) -->
+                    <div class="md:col-span-5 md:col-start-1 relative z-10">
+                        <img src="static/images/post-construction.jpg" alt="Post-construction cleaning in Polokwane" class="gallery-img">
+                        <p class="text-sm text-[var(--yellow)] mt-6 font-bold tracking-wider uppercase text-center">Deep mattress cleaning</p>
+                    </div>
+
+                    <!-- Image 2 (Circle, Right, Offset down) -->
+                    <div class="md:col-span-4 md:col-start-8 relative z-20 mt-8 md:mt-32">
+                        <img src="static/images/office-cleaning.jpg" alt="Office cleaning services" class="gallery-img">
+                        <p class="text-sm text-[var(--yellow)] mt-6 font-bold tracking-wider uppercase text-center">Outside & glass cleaning</p>
+                    </div>
+
+                    <!-- Image 3 (Circle, Left, Offset up) -->
+                    <div class="md:col-span-4 md:col-start-2 relative z-20 mt-8 md:-mt-16">
+                        <img src="static/images/deep-clean.jpg" alt="Deep cleaning kitchen and bathroom" class="gallery-img">
+                        <p class="text-sm text-[var(--yellow)] mt-6 font-bold tracking-wider uppercase text-center">The Deep Clean</p>
+                    </div>
+
+                    <!-- Image 4 (Circle, Right) -->
+                    <div class="md:col-span-5 md:col-start-7 relative z-10 mt-8 md:-mt-24">
+                        <img src="static/images/window-cleaning.jpg" alt="Streak-free window cleaning" class="gallery-img">
+                        <p class="text-sm text-[var(--yellow)] mt-6 font-bold tracking-wider uppercase text-center">Our products</p>
+                    </div>
+
+                </div>
+            </div>
+
+    <!-- SECTION 2: OUR STORY -->
+    <section id="story" class="px-6 md:px-12 py-32 bg-white relative z-10">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
+                
+                <div class="md:col-span-5 relative">
+                    <h2 class="text-5xl md:text-7xl serif mb-6 text-[var(--navy)] leading-none">
+                        Born in <br>Polokwane.<br> <span class="italic text-[var(--navy)]">Built on</span> <br>elbow grease.
+                    </h2>
+                    <div class="w-24 h-2 bg-[var(--yellow)] mt-8"></div>
+                </div>
+
+                <div class="md:col-span-6 md:col-start-7 space-y-8 text-lg text-[var(--charcoal)]/90 leading-relaxed">
+                    <p class="text-2xl serif text-[var(--navy)] leading-snug">
+                        "We started SafeNsparkle because we realized finding a reliable, trustworthy cleaner in Polokwane shouldn't feel like a gamble."
+                    </p>
+                    <p>
+                        We're not a faceless franchise. We're a local crew that lives here, works here, and cares about the spaces we clean. When we say we'll be there at 8 AM, we're there at 8 AM. 
+                    </p>
+                    <p>
+                        We know that letting someone into your home or office requires trust. That's why we treat every space with the same respect we'd treat our own. We don't cut corners, we don't use harsh chemicals that leave your eyes watering, and we don't leave until the job is done right.
+                    </p>
+                    <p class="font-bold text-[var(--navy)]">
+                        You focus on your life. We'll handle the dirt.
+                    </p>
+                    
+                    <div class="pt-8">
+                        <a href="https://wa.me/27848135581" class="inline-flex items-center gap-2 border-b-2 border-[var(--navy)] pb-1 font-bold text-[var(--navy)] hover:text-[var(--yellow)] hover:border-[var(--yellow)] transition-all duration-300">
+                            Meet the team &rarr;
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="px-6 md:px-12 py-24 relative overflow-hidden bg-[var(--navy)] text-white">
+        <div class="absolute w-96 h-96 bg-[var(--yellow)] rounded-full -bottom-48 -right-24 opacity-20"></div>
+        
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-end border-t border-white/20 pt-12 relative z-10">
+            <div class="mb-12 md:mb-0">
+                <h2 class="text-5xl md:text-7xl serif mb-6 text-white">Ready to <br> <span class="italic text-[var(--yellow)]">sparkle?</span></h2>
+                <p class="text-lg text-white/90 max-w-md">We're based in Polokwane, but our standards are global. Give us a call, send a WhatsApp, and let's get your space sorted.</p>
+            </div>
+            
+            <div class="text-left md:text-right">
+                <p class="text-sm uppercase tracking-widest text-[var(--yellow)] mb-2 font-bold">Direct Line</p>
+                <a href="tel:0848135581" class="text-3xl font-semibold hover:text-[var(--yellow)] transition-colors">084 813 5581</a>
+                <p class="text-sm uppercase tracking-widest text-[var(--yellow)] mt-8 mb-2 font-bold">Location</p>
+                <p class="text-xl font-medium text-white/90">Polokwane, South Africa</p>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-24 text-sm text-white/60 flex justify-between relative z-10">
+            <p>&copy; 2024 SafeNsparkle.</p>
+            <p>No harsh chemicals. Just hard work.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS Link -->
+    <script src="static/js/script.js"></script>
+</body>
+</html>
