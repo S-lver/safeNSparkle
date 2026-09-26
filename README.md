@@ -44,3 +44,103 @@ The design intentionally breaks away from generic corporate templates. It uses:
 ---
 
 ## 📁 Project Structure
+s
+afeNSparkle/
+│
+├── index.html # Main HTML document
+│
+├── static/
+│ ├── css/
+│ │ └── style.css # Brand variables, animations, and custom styles
+│ │
+│ ├── js/
+│ │ └── script.js # Preloader and entrance animations
+│ │
+│ └── images/
+│ ├── logo.png # Brand logo (used in nav and favicon)
+│ ├── post-construction.jpg
+│ ├── office-cleaning.jpg
+│ ├── deep-clean.jpg
+│ └── window-cleaning.jpg
+│
+└── README.md
+
+---
+
+## 🚀 Getting Started (Local Development)
+
+Because this is a static site, you can run it locally without any build tools.
+
+### Option 1: VS Code Live Server (Recommended)
+1. Install the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code.
+2. Right-click `index.html` in the file explorer.
+3. Select **"Open with Live Server"**.
+4. The site will open at `http://127.0.0.1:5500`.
+
+### Option 2: Python Simple Server
+If you have Python installed, run this in your terminal from the project root:
+
+```bash
+# For Python 3
+python -m http.server 8000
+
+Adding a New Service
+Copy one of the existing service <div> blocks inside the #services section of index.html, then update:
+
+The number (01., 02., etc.)
+
+The service title
+
+The sub-heading
+
+The description paragraph
+
+The staggered grid will automatically adjust.
+
+Swapping Gallery Images
+Drop your new image into static/images/.
+
+Update the corresponding <img src="..."> path in index.html.
+
+If the crop looks off, add object-top or object-bottom to the image's class list to control the focal point.
+
+🌐 Deployment
+This site can be deployed for free in under a minute using GitHub Pages:
+
+Push your code to GitHub (see below).
+
+Go to your repository on GitHub.
+
+Navigate to Settings → Pages.
+
+Under Source, select the main branch and / (root) folder.
+
+Click Save.
+
+Your site will be live at https://s-lver.github.io/safeNSparkle/ within a minute.
+
+For a custom domain (e.g., safensparkle.co.za), add a CNAME file to the root with your domain name and configure your DNS provider.
+
+📞 Contact
+SafeNsparkle
+
+📍 Polokwane, South Africa
+
+📞 084 813 5581
+
+💬 WhatsApp
+
+📝 License
+This project is proprietary to SafeNsparkle. All rights reserved.
+
+Built with care in Polokwane. 🇿🇦
+
+text
+
+### How to add it to your repo:
+Once you've saved the file, push it up to GitHub with:
+
+```powershell
+git add README.md
+git commit -m "Add project README"
+git push
